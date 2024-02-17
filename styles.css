@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Content:wght@400;700&family=Darumadrop+One&family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/*{
+    border:3px solid red;
+} */
+body{ 
+  margin:0px;
+  padding:0px;  
+  font-family: "Inter" , sans-serif;
+}
+.UpperNavBar{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 69px;
+    padding-right: 69px;
+    
+    
+    
+}
+
+.UpperNavBar a{
+    margin-left: 69px;
+    font-family: "Inter" , serif ;
+    font-size:22px;
+    text-decoration:none;
+    color: black;
+    
+}
+
+
+.first{
+    height: 1080px;
+    background-image: url("background1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+
+   
+}
+
+.SideText{
+    display: flex;
+    flex-direction: column;
+    margin: 200px 240px;
+    align-content: center;
+    justify-content: center;
+
+    
+}
+.buttons{
+    padding-left: 40px;
+}
+
+.SideText button{
+padding: 10px;
+background-color: rgb(199, 216, 241);
+border-radius: 25px;
+width:270px;
+font-family: "Darumadrop One";
+text-transform: uppercase;
+color:black;
+font-size: 24px;
+border:none;
+margin-inline: 6px;
+box-shadow:5px 10px;
+
+}
+/* styling search bar */
+.search input[type=text] {
+    width: 85vw;
+    height: 4vh;
+    border-radius: 25px;
+    border: none;
+    text-align:right;
+    font-size: 120%;
+    padding-right: 20px;
+    font-family: "Darumadrop One";
+        
+        
+}
+ 
+.search {
+    display:flex;
+    justify-content: center;
+    padding: 69px;
+}
+ 
+.search button {
+    background-color: white;
+    float: right;
+    height:auto;
+    padding: 5px 10px;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+section {
+    min-height: 100px;
+    overflow: hidden;
+    margin:0px;
+    padding:0px;
+}
+
+.sec2{
+    background-color: #FCD000;
+}
+ 
+.secimage {
+    border: 30px solid black;
+    border-radius: 25px;
+    max-height: 77vh;
+    flex:2.5;
+
+}
+
+.sec2imageandtext{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+}
+
+.sec2imageandtext p{
+    padding: 20px;
+   margin-left: 10%;
+   flex:1;
+   font-family: "Quicksand" ;
+   font-size: 20px;
+}
+
+.header{
+    font-weight: bold;
+    font-size:  40px;
+    display: flex;
+    padding-top:5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    justify-content: flex-end;
+    font-family: "Darumadrop One";
+    text-transform: uppercase;
+    
+}
+
+.header img{
+    margin-left: 20px;
+}
+
+table{
+ font-size: 18px;
+ background-color:aliceblue;
+ border-radius: 25px;
+ height: 300px;
+
+}
+th{
+    padding: 1vw;
+}
+
+td{
+    padding: 1vw;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.sec3{
+    max-height: 1920px;
+}
+.sec3content{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
