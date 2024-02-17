@@ -208,7 +208,7 @@ h1{
 
 }
 
-.header button{
+.header .menubutton{
     border: none;
   cursor: pointer;
   appearance: none;
