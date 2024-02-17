@@ -3,22 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Quicksand:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Content:wght@400;700&family=Darumadrop+One&family=Quicksand:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-/*{
-    border:3px solid red;
-} */
+ /* *{
+    border: 3px solid red;
+}  */
 body{ 
   margin:0px;
   padding:0px;  
   font-family: "Inter" , sans-serif;
 }
-.UpperNavBar{
+/*.UpperNavBar{
     display: flex;
     justify-content: flex-end;
     padding-top: 69px;
     padding-right: 69px;
-    
-    
-    
+ 
 }
 
 .UpperNavBar a{
@@ -29,37 +27,54 @@ body{
     color: black;
     
 }
-
-
-.first{
-    height: 1080px;
+*/
+.sec1{
+    min-height: 100vh;
+    max-height: 100vh;
     background-image: url("background1.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     margin: 0px;
     padding: 0px;
 
    
 }
 
-.SideText{
+.content{
     display: flex;
-    flex-direction: column;
-    margin: 200px 240px;
-    align-content: center;
-    justify-content: center;
+   justify-content: center;
+   margin: 10vh 10vw;
+ }
+ 
+ .proxycolumn{
+     flex:3;
+ }
 
-    
+ .SideText{
+    display: flex;
+    flex-direction: column; 
+    align-content: center;
+    flex-wrap: wrap;
+    flex:1;
 }
+ 
+
+.MarioText{
+    width: 500px;
+    height: auto;
+}
+
+
 .buttons{
-    padding-left: 40px;
+   margin: auto;
 }
 
 .SideText button{
 padding: 10px;
 background-color: rgb(199, 216, 241);
 border-radius: 25px;
-width:270px;
+width:150px;
 font-family: "Darumadrop One";
 text-transform: uppercase;
 color:black;
@@ -67,8 +82,13 @@ font-size: 24px;
 border:none;
 margin-inline: 6px;
 box-shadow:5px 10px;
-
 }
+
+
+/*----------------------------------------------------------------------------------------------------*/
+
+
+
 /* styling search bar */
 .search input[type=text] {
     width: 85vw;
@@ -86,7 +106,7 @@ box-shadow:5px 10px;
 .search {
     display:flex;
     justify-content: center;
-    padding: 69px;
+    padding-top: 69px;
 }
  
 .search button {
@@ -101,40 +121,52 @@ box-shadow:5px 10px;
 
 
 section {
-    min-height: 100px;
+    min-height: 100vh;
+    max-height: 100vh;
     overflow: hidden;
     margin:0px;
     padding:0px;
 }
 
+
+/*----------------------------------------------------------------------------------------------------*/
+
 .sec2{
     background-color: #FCD000;
 }
  
-.secimage {
-    border: 30px solid black;
-    border-radius: 25px;
-    max-height: 77vh;
-    flex:2.5;
 
-}
-
-.sec2imageandtext{
+.sec2content{
     display: flex;
     justify-content: center;
-    width: 80%;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-bottom: 5vw;
-    margin-top: 5vw;
+    margin: 10vh 10vw;
 }
 
-.sec2imageandtext p{
-    padding: 20px;
-   margin-left: 10%;
-   flex:1;
+.imgcontainer{
+    flex:2.5;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.sec2image {
+    border: 30px solid black;
+    border-radius: 25px;
+    max-width: 40vw;
+    min-width: 40vw;
+    height: 50vh;
+    
+
+
+}
+
+.textcontainer{
+    flex: 1.5;
+}
+
+p{
    font-family: "Quicksand" ;
    font-size: 20px;
+   text-indent: 50px;
 }
 
 .header{
@@ -178,3 +210,11 @@ td{
     margin: 20px;
     justify-content: center;
 }
+
+/*@media screen and (min-width: 1520px) {
+    .Mariotext{
+      width: 400px;
+      height: auto;
+    }
+    
+}*/
