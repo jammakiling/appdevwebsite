@@ -438,7 +438,19 @@ max-width: none;
 
 @media (max-width: 500px){
     .MarioText{
-        width: 450px;
+        width: 350px;
+    }
+    .sec1{
+        min-height: 0px;
+        max-height: none;
+        
+          background-size: 100% 100%;
+    }
+    .sec2{
+        min-height: 0px;
+    max-height: none;
+    
+      background-size: 100% 100%;
     }
 }
 
