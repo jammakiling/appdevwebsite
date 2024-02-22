@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 /*{
     border: 3px solid red;
-} */ 
+} */
 body{ 
   margin:0px;
   padding:0px;  
@@ -72,6 +72,10 @@ box-shadow:5px 10px;
     background-color: rgb(149, 188, 248);
 }
 
+button:hover{
+cursor: pointer;
+}
+
 
 /*----------------------------------------------------------------------------------------------------*/
 
@@ -125,7 +129,7 @@ input{
     background-size: contain;
     background-repeat: no-repeat;
     border: none;
-    width: 2vw;
+    width: 4vh;
     height: 4vh;
     cursor: pointer;
     background-color:rgb(255, 255, 255);
@@ -364,3 +368,76 @@ td{
     }
     
 } */
+
+@media (max-width: 1150px){
+.sec2content{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec2{
+    min-height: 0px;
+max-height: none;
+
+  background-size: 100% 100%;
+  object-fit: fill;
+}
+
+.textcontainer{
+    max-width: none;
+    min-width: 0;
+    margin-top: 5vh;
+}
+.sec2image{
+min-width: 0px;
+max-width: none;
+}
+}
+
+@media (max-width: 520px){
+    .sec2content{
+  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .sec2{
+        min-height: 0px;
+    max-height: none;
+    
+      background-size: 100% 100%;
+      object-fit: fill;
+    }
+    
+    .textcontainer{
+        max-width: none;
+        min-width: 0;
+        margin-top: 5vh;
+    }
+    .sec2image{
+    min-width: 0px;
+    max-width: 50vw;
+    max-height: 30vh;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+    table{
+        font-size: 13px;
+    };
+
+}
+
+@media (max-width: 500px){
+    .MarioText{
+        width: 450px;
+    }
+}
