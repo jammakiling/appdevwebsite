@@ -441,3 +441,43 @@ max-width: none;
         width: 450px;
     }
 }
+
+@media  (max-height: 530px){
+
+    .sec2{
+        min-height: 0px;
+    max-height: none;
+    
+      background-size: 100% 100%;
+    }
+.MarioText{
+    width: 400px;
+}
+
+.textcontainer p {
+font-size: 14px; ;
+
+
+}
+
+@media(max-height: 490px){
+    .MarioText{
+        width: 300px;
+    }
+
+    .SideText button{
+        width: 100px;
+        font-size: 13px;
+    }
+
+    .sec1{
+        min-height: 0px;
+        max-height: none;
+        
+          background-size: 100% 100%;
+
+    }
+}
+
+
+} 
