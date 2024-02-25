@@ -487,9 +487,7 @@ max-width: none;
     margin: 5vh 10vw;
 }
 
-.bigcolumn{
-    
-}
+
 
 .bigimage{
     max-height: 70vh;
@@ -535,16 +533,14 @@ margin: 1vw;
 }
 .charimage img{
    height: 70vh;
+   display: block;
 }
 .charimage{
     margin-left: 2vw;
+
 }
-.yoshisec{
-    background-color: #42B132;
-}
-.bowsersec{
-    background-color: #FFC92F;
-}
+
+
 
 
 
@@ -639,6 +635,72 @@ font-size: 13px;
 
 }
 
+@media (max-width: 940px){
+    .bigimage{
+        max-height: 50vh;
+    }
+    
+    .littlecolumns{
+        margin-left: 2vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+    
+    }
+    
+    .smallimage{
+    max-height: 20vh;
+    margin: 1vw;
+    }
+}
+
+@media (max-width: 650px){
+    .sec4{
+        min-height: 0px;
+        max-height: none;
+        
+          background-size: 100% 100%;
+
+    }
+    .sec4content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bigimage{
+        max-height: 40vh;
+    }
+    
+    .littlecolumns{
+        margin-left: 2vw;
+        display: flex;
+        flex-direction: row;
+   justify-content: center;
+    
+    }
+    
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    
+    }
+    
+    .smallimage{
+    max-height: 20vh;
+    margin: 1vw;
+    }
+}
+
+
 
  }
  @media (max-width: 680px){
@@ -654,7 +716,46 @@ font-size: 13px;
     
      }
 
+     @media (max-width:1200px){
+        .chartext p{
+            font-size: 15px;
+          
+        }
+        .chartext{
+            padding: 4vh;
+        }
+        .charimage img{
+       max-height: 50vh;
+        }
+     }
 
 
+     @media (max-width:800px){
+        .charsec .header{
+            margin-bottom: 2vh;
+            
+        }
+    .charcontent{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 5vh 10vw;
+        padding:2vh;
+     
+    } 
+    .charsec{
+        min-height: 0px;
+        max-height: none;
+        
+          background-size: 100% 100%;
+    }
+    
+    .chartext{
+        padding: 2vh;
+    }
+    .charimage img{
+        max-height: 30vh;
+        margin-bottom: 2vh;
+         }
+    }
 
 
