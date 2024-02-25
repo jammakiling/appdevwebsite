@@ -473,7 +473,7 @@ max-width: none;
     margin-left: 2vw;
 }
 
-
+/*-------------------------------------------*/
 
 
 
@@ -516,7 +516,40 @@ max-height: 30vh;
 margin: 1vw;
 }
 
+/*-------------------------------------------*/
 
+.charcontent{
+    display: flex;
+    justify-content: center;
+    margin: 5vh 10vw;
+    max-height: 70vh;
+}
+
+.chartext{
+    flex: 1.5;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 10vh;
+    color:#42B132;
+
+}
+.charimage img{
+   height: 70vh;
+}
+.charimage{
+    margin-left: 2vw;
+}
+.yoshisec{
+    background-color: #42B132;
+}
+.bowsersec{
+    background-color: #FFC92F;
+}
+
+
+
+
+/*-------------------------------------------*/
 
 @media (max-width: 500px){
     .MarioText{
